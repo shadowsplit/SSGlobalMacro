@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SSGlobalMacro_Example' do
+  pod 'SSGlobalMacro', :path => '../'
+
+  target 'SSGlobalMacro_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
