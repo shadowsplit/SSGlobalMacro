@@ -1,0 +1,16 @@
+PODS:
+  - SSGlobalMacro (0.1.0)
+
+DEPENDENCIES:
+  - SSGlobalMacro (from `../`)
+
+EXTERNAL SOURCES:
+  SSGlobalMacro:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SSGlobalMacro: a3bec5c8a52c04a9a47bdf25cca5af0ef7703fb8
+
+PODFILE CHECKSUM: 4482be21b4579e599f8c86e64001ebaaa312599a
+
+COCOAPODS: 1.4.0

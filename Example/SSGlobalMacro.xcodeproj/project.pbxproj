@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3221415D0B29C92B7A723C79 /* Pods_SSGlobalMacro_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CE0358082D5641410BBAB2 /* Pods_SSGlobalMacro_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E6E3E0F503D44AA19D323376 /* Pods_SSGlobalMacro_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36E23EED00F1B2CEEC11F0C /* Pods_SSGlobalMacro_Tests.framework */; };
+		A6BBB61F3B29371F5370074F /* libPods-SSGlobalMacro_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E189D023DF24A870BB382EBA /* libPods-SSGlobalMacro_Tests.a */; };
+		DE8A406F53ADD9AE21FD8CC1 /* libPods-SSGlobalMacro_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02653F5D2AC849646C088BE1 /* libPods-SSGlobalMacro_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02653F5D2AC849646C088BE1 /* libPods-SSGlobalMacro_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSGlobalMacro_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B56E7E7093CEF051B288260 /* Pods-SSGlobalMacro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSGlobalMacro_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSGlobalMacro_Tests/Pods-SSGlobalMacro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C64DCCB55847481585353D8 /* Pods-SSGlobalMacro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSGlobalMacro_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSGlobalMacro_Example/Pods-SSGlobalMacro_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5CD1603A490874C1E2BAF5A9 /* SSGlobalMacro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSGlobalMacro.podspec; path = ../SSGlobalMacro.podspec; sourceTree = "<group>"; };
@@ -64,8 +65,7 @@
 		A6CB24B4BAD1CC23F2A02780 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BE7EBDBDC20C9DB73BF1B470 /* Pods-SSGlobalMacro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSGlobalMacro_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSGlobalMacro_Example/Pods-SSGlobalMacro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D34EE8286B600D6EAEC539DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E36E23EED00F1B2CEEC11F0C /* Pods_SSGlobalMacro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSGlobalMacro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9CE0358082D5641410BBAB2 /* Pods_SSGlobalMacro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSGlobalMacro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E189D023DF24A870BB382EBA /* libPods-SSGlobalMacro_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSGlobalMacro_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6D31E8B9D5041E84D37662 /* Pods-SSGlobalMacro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSGlobalMacro_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSGlobalMacro_Tests/Pods-SSGlobalMacro_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3221415D0B29C92B7A723C79 /* Pods_SSGlobalMacro_Example.framework in Frameworks */,
+				DE8A406F53ADD9AE21FD8CC1 /* libPods-SSGlobalMacro_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E6E3E0F503D44AA19D323376 /* Pods_SSGlobalMacro_Tests.framework in Frameworks */,
+				A6BBB61F3B29371F5370074F /* libPods-SSGlobalMacro_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F9CE0358082D5641410BBAB2 /* Pods_SSGlobalMacro_Example.framework */,
-				E36E23EED00F1B2CEEC11F0C /* Pods_SSGlobalMacro_Tests.framework */,
+				02653F5D2AC849646C088BE1 /* libPods-SSGlobalMacro_Example.a */,
+				E189D023DF24A870BB382EBA /* libPods-SSGlobalMacro_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

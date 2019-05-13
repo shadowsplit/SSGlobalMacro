@@ -7,6 +7,7 @@
 //
 
 @import XCTest;
+#import "SSGlobalMacro.h"
 
 @interface Tests : XCTestCase
 
