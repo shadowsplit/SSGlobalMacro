@@ -7,12 +7,14 @@
 //
 
 #import "SSAppDelegate.h"
+#import "SSGlobalMacro.h"
 
 @implementation SSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"%lf", SS_STATUS_BAR_HEIGHT);
     return YES;
 }
 

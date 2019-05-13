@@ -12,25 +12,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B3D398DB79791C1BFB7F4BD6F6139B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1BF7F9646E6BBFB82723B4B75BD9B131 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4730B9CF4FCA5974E7FB9EAC2E0CCC79 /* Pods-SSGlobalMacro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSGlobalMacro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		52D6F31822895D2100B11F06 /* SSGlobalMacroNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSGlobalMacroNS.h; path = SSGlobalMacro/Classes/SSGlobalMacroNS.h; sourceTree = "<group>"; };
+		5391E7A7FB6D6A6A8D630F0628A06DC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6DE6FD133ABF82977BADA166082F8A62 /* Pods-SSGlobalMacro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGlobalMacro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		763CD641C8FFD4F2DEA36440770D919F /* Pods-SSGlobalMacro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSGlobalMacro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		833B3F928AC0A34D3FCAE55519B79A45 /* Pods-SSGlobalMacro_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGlobalMacro_Example-resources.sh"; sourceTree = "<group>"; };
+		8CDC180850594FEA78B344B06633C0DD /* SSGlobalMacroNS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSGlobalMacroNS.h; path = SSGlobalMacro/Classes/SSGlobalMacroNS.h; sourceTree = "<group>"; };
+		8D90DD731F692DE6BFA827F83849D819 /* SSGlobalMacro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SSGlobalMacro.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93EC96E2D166FC999C963ECBAFF427EE /* Pods-SSGlobalMacro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGlobalMacro_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9544CFF576315AFDD43DF74C277C407A /* SSGlobalMacroUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSGlobalMacroUI.h; path = SSGlobalMacro/Classes/SSGlobalMacroUI.h; sourceTree = "<group>"; };
-		9CA2D52D021545C2801442405C5F670C /* SSGlobalMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSGlobalMacro.h; path = SSGlobalMacro/Classes/SSGlobalMacro.h; sourceTree = "<group>"; };
 		A21A1E21742CC8D3432EB504DDCB4F18 /* Pods-SSGlobalMacro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGlobalMacro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B14779869C36090CADD81439601FCBC1 /* libPods-SSGlobalMacro_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSGlobalMacro_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EA2C9122F9FD89975088235D748972 /* SSGlobalMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSGlobalMacro.h; path = SSGlobalMacro/Classes/SSGlobalMacro.h; sourceTree = "<group>"; };
+		AE692D223D2ABA2D323114678172B498 /* SSGlobalMacroUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSGlobalMacroUI.h; path = SSGlobalMacro/Classes/SSGlobalMacroUI.h; sourceTree = "<group>"; };
+		B14779869C36090CADD81439601FCBC1 /* libPods-SSGlobalMacro_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SSGlobalMacro_Example.a"; path = "libPods-SSGlobalMacro_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB23D9BF73CDCD8D75942072B8DBDB34 /* Pods-SSGlobalMacro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSGlobalMacro_Example-dummy.m"; sourceTree = "<group>"; };
 		BD99EF45B361A055F3235494FD85837B /* Pods-SSGlobalMacro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSGlobalMacro_Tests-dummy.m"; sourceTree = "<group>"; };
 		BEEBBB0ABD798C16EEC66262547318FA /* Pods-SSGlobalMacro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGlobalMacro_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C0C50FE3D834C1DD54ACF7B095FD686B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C70833FBACD1EC2DDB37509FF8A5F4EC /* libPods-SSGlobalMacro_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSGlobalMacro_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70833FBACD1EC2DDB37509FF8A5F4EC /* libPods-SSGlobalMacro_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SSGlobalMacro_Tests.a"; path = "libPods-SSGlobalMacro_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC90D8D83C5A5F218F2348152D546CC1 /* Pods-SSGlobalMacro_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGlobalMacro_Tests-resources.sh"; sourceTree = "<group>"; };
-		E6D0279674E4DF41004FCA4C51631C61 /* SSGlobalMacro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SSGlobalMacro.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EDC06E7C816EC6946F12DB0E318DAB31 /* Pods-SSGlobalMacro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSGlobalMacro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F64F9D0141CEF665EB28400B0EE35930 /* Pods-SSGlobalMacro_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSGlobalMacro_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F66B74623F514379E26B7DF3825B4DC5 /* Pods-SSGlobalMacro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSGlobalMacro_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142AAB3B09C9443A689CB95DA818ECAD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5391E7A7FB6D6A6A8D630F0628A06DC2 /* LICENSE */,
+				1BF7F9646E6BBFB82723B4B75BD9B131 /* README.md */,
+				8D90DD731F692DE6BFA827F83849D819 /* SSGlobalMacro.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		1469AC5D952DAB8E625102CC8CFA7298 /* Pods-SSGlobalMacro_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,18 @@
 			);
 			name = "Pods-SSGlobalMacro_Example";
 			path = "Target Support Files/Pods-SSGlobalMacro_Example";
+			sourceTree = "<group>";
+		};
+		1600C4E09F149F00D5F5A1B1574E755C /* SSGlobalMacro */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA2C9122F9FD89975088235D748972 /* SSGlobalMacro.h */,
+				8CDC180850594FEA78B344B06633C0DD /* SSGlobalMacroNS.h */,
+				AE692D223D2ABA2D323114678172B498 /* SSGlobalMacroUI.h */,
+				142AAB3B09C9443A689CB95DA818ECAD /* Pod */,
+			);
+			name = SSGlobalMacro;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3E8546F328015C3C55FFB92B8865FACE /* Products */ = {
@@ -88,14 +110,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8847644E7646EEA444C7481A18821976 /* Pod */ = {
+		5257A81BAA568EDFB382974283FA9535 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0C50FE3D834C1DD54ACF7B095FD686B /* LICENSE */,
-				1B3D398DB79791C1BFB7F4BD6F6139B1 /* README.md */,
-				E6D0279674E4DF41004FCA4C51631C61 /* SSGlobalMacro.podspec */,
+				1600C4E09F149F00D5F5A1B1574E755C /* SSGlobalMacro */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		AC935B6F776F7B3B153BDC6C9681D52A /* Pods-SSGlobalMacro_Tests */ = {
@@ -113,35 +133,15 @@
 			path = "Target Support Files/Pods-SSGlobalMacro_Tests";
 			sourceTree = "<group>";
 		};
-		B0AC2FD1AA6291EE4126363969FE0043 /* SSGlobalMacro */ = {
-			isa = PBXGroup;
-			children = (
-				9CA2D52D021545C2801442405C5F670C /* SSGlobalMacro.h */,
-				9544CFF576315AFDD43DF74C277C407A /* SSGlobalMacroUI.h */,
-				52D6F31822895D2100B11F06 /* SSGlobalMacroNS.h */,
-				8847644E7646EEA444C7481A18821976 /* Pod */,
-			);
-			name = SSGlobalMacro;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				CFEC90298C2882F485BF4543A50D4AE9 /* Development Pods */,
+				5257A81BAA568EDFB382974283FA9535 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				3E8546F328015C3C55FFB92B8865FACE /* Products */,
 				4CB8A7F6F36A3CE866F17213099AA5C1 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFEC90298C2882F485BF4543A50D4AE9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B0AC2FD1AA6291EE4126363969FE0043 /* SSGlobalMacro */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -307,7 +307,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
